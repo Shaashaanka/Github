@@ -1,0 +1,26 @@
+<html>
+<head>
+<title> odd even</title>
+</head>
+<body>
+<script type="text/javascript">
+function evenodd()
+{
+	var a= Number(document.getElementById('n1').value);
+	var a=a%2;
+	if(a==0)
+	{
+	alert('number given is even');
+	}
+	else
+	{
+		alert('number is odd');
+	}
+}
+</script>
+<form>
+Number:<input type="text" name="num" id='n1'><br>
+<input type="button" value="answer" onclick="evenodd()">
+</form>
+</body>
+</html>
